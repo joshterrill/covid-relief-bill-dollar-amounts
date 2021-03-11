@@ -4,7 +4,7 @@ This repository attempts to parse the December 21, 2020 COVID relief bill, looki
 
 The standalone script can be found in `script.py` and can be run via `python3 script.py`
 
-This repository is the focus of a blog post I wrote on https://joshterrill.com called [*"Where does all the money go?"*](https://joshterrill.com)
+This repository is the focus of a blog post I wrote on https://joshterrill.com called [*"Where does all the money go?"*](https://joshterrill.com/analyzing-government-documents-1/)
 
 A PDF hosted version of the original text can be found on the house website: https://rules.house.gov/sites/democrats.rules.house.gov/files/BILLS-116HR133SA-RCP-116-68.pdf
 

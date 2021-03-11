@@ -37,6 +37,7 @@ def write_countries_to_file():
        for c in countries:
             if (c + " ") in t and '$' in t:
                 file_text += "<h4> " + c + "</h4>"
+                file_text += t.replace("<br /><br />", "")
                 file_text += "<br /><br />"
     f = open("./referenced-countries.html", "w")
     f.write(file_text)
@@ -47,7 +48,7 @@ def write_money_references_to_file():
 	for t in splitted:
 		if '$' in t:
 			file_text += "<li>" + t + "</li>"
-			file_text += "<br />"
+			file_text += "<br /><br />"
 	f = open("./referenced-dollars.html", "w")
 	f.write(file_text)
 	f.close()
